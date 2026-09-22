@@ -85,22 +85,6 @@ This project analyzes **1,365 distinct orders** (1,952 order line items) placed 
 
 ---
 
-## Repository Structure
-
-```
-staples-superstore-analysis/
-├── README.md
-├── P6-SuperStoreUS-2015.xlsx        # raw dataset
-└── screenshots/
-    ├── 1-sales-dashboard.png
-    ├── 2-customers-dashboard.png
-    ├── 3-products-dashboard.png
-    ├── 4-orders-dashboard.png
-    └── 5-shipping-dashboard.png
-```
-
----
-
 ## Key Takeaways for the Business
 
 1. **South region is losing money** — investigate discounting, shipping cost, or product mix driving the –$14.4K profit.
@@ -113,4 +97,4 @@ staples-superstore-analysis/
 
 ## Author
 
-Analysis and dashboard design by **[Your Name]**. Feel free to connect or reach out with questions/feedback.
+Analysis and dashboard design by **[Hanem Ahmad]**. Feel free to connect or reach out with questions/feedback.
