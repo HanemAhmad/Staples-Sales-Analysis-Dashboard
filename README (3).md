@@ -27,12 +27,7 @@ This project analyzes **1,365 distinct orders** (1,952 order line items) placed 
 ---
 
 
-- **Sheets:**
-  - `Orders` — 1,952 transaction-level records (Order Priority, Discount, Unit Price, Shipping Cost, Customer info, Product info, Region, Order/Ship Dates, Profit, Quantity, Sales, Order ID)
-  - `Returns` — Order IDs flagged as returned
-  - `Users` — Regional account manager mapping (Region → Manager)
-- **Time range:** January 1, 2015 – June 30, 2015
-- **Grain:** One row per order line item
+
 
 ### Data notes
 - The `Orders` sheet has 1,952 rows, but each row is a **line item** (one product within an order), not a separate order. Counting distinct `Order ID` values gives **1,365 actual orders** — this is the figure used throughout the dashboards and this README, not the raw row count.
