@@ -2,7 +2,8 @@
 
 An end-to-end interactive dashboard built on the **SuperStore US (2015)** dataset, covering sales performance, product profitability, customer behavior, order patterns, and shipping/logistics efficiency.
 
-> Note: "Staples SuperStore" is a fictional retail brand used for this dataset/exercise; it is not affiliated with the real Staples Inc.
+
+
 
 ---
 
