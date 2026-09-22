@@ -2,7 +2,7 @@
 
 An end-to-end interactive dashboard built on the **SuperStore US (2015)** dataset, covering sales performance, product profitability, customer behavior, order patterns, and shipping/logistics efficiency.
 
-> Note: "Staples SuperStore" is a fictional retail brand used for this dataset/exercise; it is not affiliated with the real Staples Inc.
+
 
 ---
 
@@ -26,9 +26,7 @@ This project analyzes **1,365 distinct orders** (1,952 order line items) placed 
 
 ---
 
-## Dataset
 
-- **Source file:** `P6-SuperStoreUS-2015.xlsx`
 - **Sheets:**
   - `Orders` — 1,952 transaction-level records (Order Priority, Discount, Unit Price, Shipping Cost, Customer info, Product info, Region, Order/Ship Dates, Profit, Quantity, Sales, Order ID)
   - `Returns` — Order IDs flagged as returned
@@ -45,14 +43,14 @@ This project analyzes **1,365 distinct orders** (1,952 order line items) placed 
 ## Dashboards
 
 ### 1. Sales Dashboard
-![Sales Dashboard](screenshots/1-sales-dashboard.png)
+![Sales Dashboard](1-sales-dashboard.png)
 
 - Total Sales of $1.92M sits at ~87% of the $2.20M target.
 - Discounted orders generated the large majority of profit ($194.61K, ~87%) versus non-discounted orders ($29.47K) — a sign that discounting is closely tied to volume in this dataset.
 - **East** is the strongest region ($592K sales / $85.3K profit); **South** is the only region operating at a **loss** (–$14.4K profit) despite $357K in sales — flagged as a priority area for margin investigation.
 
 ### 2. Products Dashboard
-![Products Dashboard](screenshots/3-products-dashboard.png)
+![Products Dashboard](3-products-dashboard.png)
 
 - 913 products across Technology, Office Supplies, and Furniture.
 - **Technology** leads in revenue ($712K, 37%), but **Office Supplies** actually generates the most profit ($89.5K) — a margin gap worth digging into for pricing/discount strategy on Technology items.
@@ -60,14 +58,14 @@ This project analyzes **1,365 distinct orders** (1,952 order line items) placed 
 - Discount rates cluster below 10% for most orders, with a few outliers above 15–20%.
 
 ### 3. Customers Dashboard
-![Customers Dashboard](screenshots/2-customers-dashboard.png)
+![Customers Dashboard](2-customers-dashboard.png)
 
 - ~1,000 active customers, averaging $1.70K revenue per customer.
 - **Corporate** is the largest segment (35%), followed by Home Office (24%) and Small Business (20%).
 - Top customer: *Richard McClure*; customer count trended down from 370 (Jan) to 306 (June) — worth monitoring for retention.
 
 ### 4. Orders Dashboard
-![Orders Dashboard](screenshots/4-orders-dashboard.png)
+![Orders Dashboard](4-orders-dashboard.png)
 
 - 1,365 orders (1,952 line items) totaling 25K units sold.
 - Order volume declined steadily from 249 (Jan) to 215 (June).
@@ -75,7 +73,7 @@ This project analyzes **1,365 distinct orders** (1,952 order line items) placed 
 - Order priority is fairly evenly split across Low/Medium/High/Critical/Not Specified (~19–21% each).
 
 ### 5. Shipping Dashboard
-![Shipping Dashboard](screenshots/5-shipping-dashboard.png)
+![Shipping Dashboard](5-shipping-dashboard.png)
 
 - Average fulfillment time: 1.94 days; average shipping cost: $12.97.
 - **Regular Air** is the dominant ship mode (63.3% of orders), followed by Delivery Truck (23.5%) and Express Air (13.2%).
